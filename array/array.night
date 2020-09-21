@@ -1,0 +1,29 @@
+int[] add_back(int[] arr, int len, int val)
+{
+    int[len + 1] new_arr;
+    
+    int a;
+    loop for (len)
+    {
+        new_arr[a] = arr[a];
+        a += 1;
+    }
+    
+    new_arr[len] = val;
+    return new_arr;
+}
+
+int[] add_front(int[] arr, int len, int val)
+{
+    int[len + 1] new_arr;
+    
+    int a;
+    loop for (len)
+    {
+        new_arr[a + 1] = arr[a];
+        a += 1;
+    }
+    
+    new_arr[0] = val;
+    return new_arr;
+}
