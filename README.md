@@ -1,4 +1,15 @@
 # sqdlib
-Squid Library - the standard library for Night
 
-Note that this library reflects `Night v3.3`, which has not been released yet. But when it comes out, it should be fully compatable. Also might add a package manager in there as well with the help of [firefish111](https://github.com/firefish111) and [Lethdev2019](https://github.com/Lethdev2019).
+Squid Libray - the standard library for the [Night](https://github.com/DynamicSquid/Night) language. It's still in active development, and closely evolves with Night.
+
+This library is designed to be used with *[dusk](https://github.com/firefish111/dusk)*, the package manager for Night. Big thanks to [@firefish111](https://github.com/firefish111) for making it!
+
+Note: This library reflects Night `v3.3`, which has not been released yet.
+
+---
+
+### Timeline
+
+| Version       | Description                  | Progress        |
+| ------------- | ---------------------------- | --------------- |
+| v1.0          | functions to aid with arrays | almost complete |
