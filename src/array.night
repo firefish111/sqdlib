@@ -1,0 +1,54 @@
+int[] add_pos(int[] arr, int len, int pos, int val)
+{
+    int[len + 1] temp;
+
+    int a = 0;
+    loop for (pos)
+    {
+        temp[a] = arr[a];
+        a += 1;
+    }
+
+    temp[pos] = val;
+
+    a += 1;
+    loop for (len)
+    {
+        temp[a] = arr[a];
+        a += 1;
+    }
+
+    return temp;
+}
+
+int[] add_front(int[] arr, int len, int val)
+{
+    int[len + 1] temp;
+
+    int a = 0;
+    loop for (len)
+    {
+        temp[a + 1] = arr[a];
+        a += 1;
+    }
+
+    temp[0] = val;
+
+    return temp;
+}
+
+int[] add_back(int[] arr, int len, int val)
+{
+    int[len + 1] temp;
+
+    int a = 0;
+    loop for (len)
+    {
+        temp[a] = arr[a];
+        a += 1;
+    }
+
+    temp[len] = val;
+
+    return temp;
+}
